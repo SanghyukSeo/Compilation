@@ -1,0 +1,148 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header-box{
+    text-align: center;
+    object-position: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.header-box h1{
+    font-size: 10rem;
+    font-family: 'Sora', 'sans-serif';
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Sora', 'sans-serif';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2:hover{
+    font-style: italic;
+    color: white;
+}
+
+.grid{
+    transition: all .3s ease-out;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.grid3{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.main-grid{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right:10%;
+    height: 100%;
+    display: grid;
+    gap: 2rem;grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-template-areas: 
+    'one two three'
+    'four five three'
+    'six seven eight'
+    'nine ten ten'
+    ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    text-align: center;
+}
+.grid:hover {
+    background-color: coral;
+}
+.grid:nth-child(10):hover{
+    background-color: turquoise;
+}
+
+.grid:nth-child(3):hover{
+    background-color: turquoise;
+}
+
+.grid:nth-child(1){ 
+    grid-area: one;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(2){
+    grid-area: two;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(3){
+    grid-area: three;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(4){
+    grid-area: four;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(5){
+    grid-area: five;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(6){
+    grid-area: six;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(7){
+    grid-area: seven;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(8){
+    grid-area: eight;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(9){
+    grid-area: nine;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
+.grid:nth-child(10){
+    grid-area: ten;
+    vertical-align: middle;
+    border-style: solid;
+    border-width:0.2px;
+    border-radius: 1rem;
+}
